@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="public/netflix-logo-icon.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <title>MyFlix</title>
+  </head>
+  <body>
+    <section class="background">
+      <header class="header-container container">
+        <div class="hero-container">
+          <img
+            class="netflix-logo"
+            src="public/netflix-3.svg"
+            alt="netflix-logo"
+          />
+          <nav class="navigator">
+            <div class="language-option">
+              <select id="select-language">
+                <option value="eng">English</option>
+                <option value="tr">Türkçe</option>
+              </select>
+            </div>
+            <a class="signIn-btn" href="iki.html">Giriş Yap</a>
+          </nav>
+        </div>
+        <div class="header-text-container">
+          <h1>Sınırsız film, dizi ve çok daha fazlası</h1>
+          <p>
+            149,99 TL ile başlayan fiyatlarla. İstediğiniz zaman iptal edin.
+          </p>
+          <h3>
+            İzlemeye hazır mısınız? Üye olmak ya da hesabınıza tekrar ulaşmak
+            için tek yapmanız gereken e-posta adresinizi girmek.
+          </h3>
+          <div class="signUp-input">
+            <div class="input-container">
+              <input type="text" id="email" required />
+              <label for="email">E-posta adresi</label>
+            </div>
+            <button class="signUp-btn">
+              Başlayın <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </header>
+    </section>
+    <section class="feature-benefits">
+      <!-- 1.container -->
+      <div class="benefits-container">
+        <div class="context-container">
+          <h1>TV keyfini çıkarın.</h1>
+          <p>
+            Akıllı TV'lerde, Playstation'da, Xbox'ta, Chromecast'te, Apple
+            TV'de, Blu-ray oynatıcılarda ve daha fazlasında izleyin.
+          </p>
+        </div>
+        <div class="benefits-container-image">
+          <img src="public/assets/image-benefits/image-1.jpg" alt="" />
+        </div>
+      </div>
+      <!-- 2.container -->
+      <div class="benefits-container">
+        <div class="benefits-container-image">
+          <img src="public/assets/image-benefits/image-2.jpg" alt="" />
+        </div>
+        <div class="context-container">
+          <h1>Çevrimdışı izlemek için programlarınızı indirin.</h1>
+          <p>
+            Favorilerinizi kolayca kaydedin ve her zaman izleyecek bir şeyiniz
+            olsun.
+          </p>
+        </div>
+      </div>
+      <!-- 3.container -->
+      <div class="benefits-container">
+        <div class="context-container">
+          <h1>Her yerde izleyin.</h1>
+          <p>
+            Daha fazla ödeme yapmadan telefonunuzda, tabletinizde, dizüstü
+            bilgisayarınızda ve TV'nizde sınırsız film ve TV şovu izleyin.
+          </p>
+        </div>
+        <div class="benefits-container-image">
+          <img src="public/assets/image-benefits/image-3.jpg" alt="" />
+        </div>
+      </div>
+      <!-- 4.container -->
+      <div class="benefits-container">
+        <div class="benefits-container-image">
+          <img src="public/assets/image-benefits/image-4.jpg" alt="" />
+        </div>
+        <div class="context-container">
+          <h1>Çocuklar için profiller oluşturun.</h1>
+          <p class="benefits-text">
+            Üyeliğinizle birlikte ücretsiz olarak kendileri için hazırlanmış bir
+            alanda çocuklarınızı en sevdikleri karakterlerle maceralara
+            gönderin.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Frequently Asked Questions -->
+    <section class="asked-container container">
+      <h1>Sık Sorulan Sorular</h1>
+      <article class="faq-container">
+        <div class="ask-question-container">
+          <h2 class="question">Netflix Nedir ?</h2>
+          <button
+            class="toggle-button"
+            aria-expanded="false"
+            aria-controls="netflix-what"
+          >
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
+        <p class="hidden">
+          Netflix; internet bağlantılı binlerce cihazda ödüllü diziler, filmler,
+          animeler, belgeseller ve daha fazlasını içeren geniş bir arşiv sunan
+          bir streaming hizmetidir.
+        </p>
+      </article>
+
+      <article class="faq-container">
+        <div class="ask-question-container">
+          <h2>Netflix'in Maliyeti Nedir ?</h2>
+          <button class="toggle-button" aria-expanded="false">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
+        <p class="hidden">
+          Netflix; internet bağlantılı binlerce cihazda ödüllü diziler, filmler,
+          animeler, belgeseller ve daha fazlasını içeren geniş bir arşiv sunan
+          bir streaming hizmetidir.
+        </p>
+      </article>
+
+      <article class="faq-container">
+        <div class="ask-question-container">
+          <h2>Nerede İzleyebilirim ?</h2>
+          <button class="toggle-button" aria-expanded="false">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
+        <p class="hidden">
+          İstediğiniz yerde, istediğiniz zaman izleyin. Bilgisayarınızda
+          netflix.com adresinden veya akıllı TV'ler, akıllı telefonlar,
+          tabletler, medya oynatıcılar ve oyun konsolları dâhil Netflix
+          uygulamasını sunan, internet bağlantılı herhangi bir cihazda anında
+          izlemek için Netflix hesabınızla oturum açın. Favori içeriklerinizi
+          iOS veya Android uygulamasıyla da indirebilirsiniz. Seyahatteyken ve
+          internet bağlantısı olmadan izlemek için indirilenleri kullanın.
+          Netflix'i her yere beraberinizde götürün.
+        </p>
+      </article>
+
+      <article class="faq-container">
+        <div class="ask-question-container">
+          <h2>Netflix'te ne izleyebilirim ?</h2>
+          <button class="toggle-button" aria-expanded="false">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
+        <p class="hidden">
+          Netflix, uzun metrajlı filmler, belgeseller, diziler ve programlar,
+          anime, ödüllü Netflix orijinal içerikleri ve daha fazlasından oluşan
+          kapsamlı bir kütüphaneye sahiptir. İstediğiniz her zaman, istediğiniz
+          kadar çok şey izleyin.
+        </p>
+      </article>
+      <article class="faq-container">
+        <div class="ask-question-container">
+          <h2>Nasıl iptal ederim ?</h2>
+          <button class="toggle-button" aria-expanded="false">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
+        <p class="hidden">
+          Netflix esnektir. Sinir bozucu hiçbir sözleşme ve taahhüt yoktur.
+          Hesabınızı çevrimiçi olarak iki tıklamayla kolayca iptal
+          edebilirsiniz. İptal ücreti yoktur - hesabınızı istediğiniz zaman
+          başlatın veya durdurun.
+        </p>
+      </article>
+      <article class="faq-container">
+        <div class="ask-question-container">
+          <h2>Netflix çocuklar için uygun mudur ?</h2>
+          <button class="toggle-button" aria-expanded="false">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </div>
+        <p class="hidden">
+          Üyeliğinize dâhil olan Netflix Çocuk deneyimi, çocukların ailece
+          izlenebilecek dizi ve filmleri kendilerine özel bir alanda
+          izlemelerini sağlarken kontrolü ebeveynlere verir. Çocuk profillerinde
+          bulunan PIN korumalı ebeveyn kontrolleri sayesinde, çocukların
+          izleyebileceği içeriklerin yetişkinlik düzeylerini kısıtlayabilir ve
+          onların görmesini istemediğiniz belirli içerikleri
+          engelleyebilirsiniz.
+        </p>
+      </article>
+    </section>
+    <script src="question-visible.js"></script>
+  </body>
+</html>
