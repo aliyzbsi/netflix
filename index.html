@@ -26,12 +26,21 @@
           />
           <nav class="navigator">
             <div class="language-option">
-              <select id="select-language">
-                <option value="eng">English</option>
-                <option value="tr">Türkçe</option>
-              </select>
+              <div class="custom-select">
+                <div class="selected-option">
+                  <i class="fa-solid fa-language"></i>Türkçe
+                </div>
+                <ul class="select-options">
+                  <li data-value="tr">Türkçe</li>
+                  <li data-value="eng">English</li>
+                </ul>
+              </div>
             </div>
-            <a class="signIn-btn" href="iki.html">Giriş Yap</a>
+            <a
+              class="signIn-btn"
+              href="./direction-pages/signIn-Direction_Page.html"
+              >Giriş Yap</a
+            >
           </nav>
         </div>
         <div class="header-text-container">
@@ -210,7 +219,57 @@
           engelleyebilirsiniz.
         </p>
       </article>
+
+      <section class="sign-control-section">
+        <h3>
+          İzlemeye hazır mısınız? Üye olmak ya da hesabınıza tekrar ulaşmak için
+          tek yapmanız gereken e-posta adresinizi girmek.
+        </h3>
+        <div class="signUp-input">
+          <div class="input-container">
+            <input type="text" id="email" required />
+            <label for="email">E-posta adresi</label>
+          </div>
+          <button class="signUp-btn">
+            Başlayın <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </section>
     </section>
+    <footer>
+      <section class="footer-section">
+        <div class="footer-text">
+          <p>
+            <a href="tel:0850-390-7444"
+              >Sorularınız mı var? <span> 0850-390-7444 </span> numaralı
+              telefonu arayın.</a
+            >
+          </p>
+        </div>
+
+        <nav class="redirects-navigator">
+          <a href="">SSS</a>
+          <a href="">Yardım Merkezi</a>
+          <a href="">Hesap</a>
+          <a href="">Medya Merkezi</a>
+          <a href="">Yatırımcı İlişkileri</a>
+          <a href="">İşler</a>
+          <a href=""> Hediye Kartlarını Kullanın</a>
+          <a href=""> İzlemenin Yolları</a>
+          <a href="">Kullanım Şartları</a>
+          <a href=""> Mahremiyet</a>
+          <a href=""> Çerez Tercihleri</a>
+          <a href=""> Kurumsal Bilgiler</a>
+          <a href="">Bize Ulaşın</a>
+          <a href=""> Hız Testi</a>
+          <a href=""> Yasal Uyarılar</a>
+          <a href=""> Sadece Netflix'te</a>
+        </nav>
+        <p class="footer-copyright">Netflix Türkiye</p>
+      </section>
+    </footer>
     <script src="question-visible.js"></script>
+    <script src="language-options.js"></script>
+    <script src="./inputControl.js"></script>
   </body>
 </html>
